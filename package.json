@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-cordova-app",
+  "version": "1.0.0",
+  "description": "Nuxt JS + Vuetify 2 hybrid SPA app with Cordova",
+  "author": "Ryan Holton",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "cordova-ios": "npm run build-spa && npm run replace-relative-paths && npm run copy-cordova && npm run run-ios;",
+    "cordova-android": "npm run build-spa && npm run replace-relative-paths && npm run copy-cordova && npm run run-android;",
+    "build-spa": "nuxt build --spa",
+    "replace-relative-paths": "replace '/nuxtfiles/' 'nuxtfiles/' dist --recursive && replace '/assets/' 'nuxtfiles/' dist --recursive && replace '(href|src|\"href\"|\"src\")=\"/' '$1=\"../' dist --recursive && replace '(href|src|\"href\"|\"src\"):\"/' '$1:\"../' dist --recursive",
+    "copy-cordova": "cp -R dist/* cordova/www/",
+    "clear-cordova": "rm -R cordova/www/*",
+    "run-ios": "cd cordova && cordova run ios --buildFlag='-UseModernBuildSystem=0' --target='iPhone-8, 12.2'",
+    "run-android": "cd cordova && cordova run android"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "2.6.3",
+    "vuetify": "1.5.14",
+    "vuetify-loader": "^1.2.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "replace": "1.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}

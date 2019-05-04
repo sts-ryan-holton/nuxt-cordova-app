@@ -1,0 +1,1 @@
+{"name":"nuxt-cordova-app","short_name":"nuxt-cordova-app","description":"Nuxt JS + Vuetify 2 hybrid SPA app with Cordova","publicPath":"/nuxtfiles/","icons":[],"start_url":"/?standalone=true","display":"standalone","background_color":"#ffffff","theme_color":"#fff","lang":"en"}

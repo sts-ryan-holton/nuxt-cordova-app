@@ -1,0 +1,67 @@
+{
+  "_from": "cordova-plugin-hidden-statusbar-overlay",
+  "_id": "cordova-plugin-hidden-statusbar-overlay@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-OJ9shCSjfiJ+OTfkKBvdI21E6FzWe/nhtxRAXjCaqOF7wUHo96ZfgJ4Ec82zYYW+SRby4u+wzmmCrjNSff2UMQ==",
+  "_location": "/cordova-plugin-hidden-statusbar-overlay",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-hidden-statusbar-overlay",
+    "name": "cordova-plugin-hidden-statusbar-overlay",
+    "escapedName": "cordova-plugin-hidden-statusbar-overlay",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-hidden-statusbar-overlay/-/cordova-plugin-hidden-statusbar-overlay-2.0.1.tgz",
+  "_shasum": "1abf8943c192bc067cdfcce1c7472eb047b6e06c",
+  "_spec": "cordova-plugin-hidden-statusbar-overlay",
+  "_where": "/Applications/MAMP/htdocs/nuxt-cordova-app/cordova",
+  "author": {
+    "name": "Sebastián Katzer"
+  },
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-hidden-statusbar-overlay/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-hidden-statusbar-overlay",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Hides the statusbar and overlay",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=7.0.0"
+    }
+  ],
+  "homepage": "https://github.com/katzer/cordova-plugin-hidden-statusbar-overlay#readme",
+  "keywords": [
+    "appplant",
+    "statusbar",
+    "ios",
+    "overlay",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-hidden-statusbar-overlay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzer/cordova-plugin-hidden-statusbar-overlay.git"
+  },
+  "version": "2.0.1"
+}
