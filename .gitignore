@@ -83,3 +83,9 @@ dist
 
 # Service worker
 sw.*
+
+# Cordova
+cordova/platforms
+cordova/plugins
+cordova/www
+nuxtfiles
