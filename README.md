@@ -2,6 +2,8 @@
 
 [Nuxt JS](https://nuxtjs.org/) (Vue JS) + [Vuetify 2](https://vuetifyjs.com/en/) SPA hybrid demo app built using [Apache Cordova](https://cordova.apache.org/), formally known as PhoneGap.
 
+Use this template to get you up and running with a Nuxt JS + Vuetify and Cordova project.
+
 ## :rocket: Project Setup
 
 #### Requirements
@@ -24,7 +26,8 @@ $ cd cordova && cordova prepare
 # Install required packages to run emulator
 $ cd cordova/platforms/ios/cordova && npm install ios-sim ios-deploy
 ```
-**:warning:** you may need to manually install missing Cordova plugins when prompted.
+
+**Note: if `cordova prepare` fails, check that the cordova/www directory exists, if it doesn't create it.**
 
 > Run all installation commands from the root project.
 
