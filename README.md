@@ -11,8 +11,8 @@ Use this template to get you up and running with a Nuxt JS + Vuetify and Cordova
 - Cordova `= 8.0.0`
 - Xcode `>= 10.3`
 - Android Studio `>= 3.4`
-- Node JS `>= 10.13.0`
-- NPM `>= 6.10.0`
+- Node JS `>= 10.15.0`
+- NPM `>= 6.14.0`
 
 #### Installation
 
