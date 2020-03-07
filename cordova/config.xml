@@ -25,6 +25,6 @@
         <splash src="res/splash/ios/Default@2x~universal~anyany.png" />
     </platform>
     <plugin name="cordova-plugin-hidden-statusbar-overlay" spec="^2.0.1" />
-    <engine name="ios" spec="^4.5.5" />
-    <engine name="android" spec="^7.0.0" />
+    <engine name="ios" spec="^5.1.1" />
+    <engine name="android" spec="^8.1.0" />
 </widget>
