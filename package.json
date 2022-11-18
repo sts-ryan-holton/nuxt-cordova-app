@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "cross-env": "7.0.*",
-    "nuxt": "2.11.0",
+    "nuxt": "2.15.8",
     "vuetify": "1.5.24",
     "vuetify-loader": "1.4.3",
     "@nuxtjs/axios": "5.9.5",
